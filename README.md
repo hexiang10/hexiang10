@@ -1,4 +1,6 @@
-### Hi there 👋
+## Hi I'am 何翔 👋
+
+- 爱生活！爱分享！爱学习！一个阳光上进的UP主！期待未来的成长与你一同前行！B站主页：https://space.bilibili.com/495642569
 
 <!--
 **He-Xiang-best/He-Xiang-best** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +16,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=He-Xiang-best)](https://github.com/anuraghazra/github-readme-stats)
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=He-Xiang-best&show_icons=true)
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=He-Xiang-best&show_icons=true&theme=highcontrast)

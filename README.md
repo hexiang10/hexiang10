@@ -18,3 +18,5 @@ Here are some ideas to get you started:
 -->
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=He-Xiang-best&show_icons=true&theme=highcontrast)
+
+https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>

@@ -17,6 +17,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=He-Xiang-best&show_icons=true&theme=highcontrast)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=He-Xiang-best&show_icons=true&theme=highcontrast) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=He-Xiang-best&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
-https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>
+

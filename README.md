@@ -8,7 +8,7 @@
 - 💬 微信：HX172837855
 - 🐧  QQ ：172837855 
 - 🌊 新浪微博：<a href="https://weibo.com/7189812208/profile?topnav=1&wvr=6&is_all=1" target="_blank">向阳驹Young</a>
-- 😭 说明：由于我国(China)访问Github不稳定，因此有很多代码和作品存储在了国内仓库中，可在“我的相关”里访问CodeChina或Gitee查看
+- 😭 说明：由于我国(China)访问Github不稳定，因此有很多代码和作品存储在了国内仓库中，可在“我的相关”里访问CodeChina或Gitee
 
 ## 我的Github ✨
 

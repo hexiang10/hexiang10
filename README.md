@@ -2,7 +2,7 @@
 
 - 🌞 爱生活！爱分享！爱学习！一个阳光上进的UP主！期待未来的路上与你一同前行！
 - 🏡 我的相关：<a href="https://codechina.csdn.net/HXBest" target="_blank">CodeChina</a> | <a href="https://gitee.com/hexiang_home" target="_blank">Gitee</a> | <a href="https://www.yuque.com/hexiang_home" target="_blank">语雀 ✨</a>
-- 🌱 热爱分享 <a href="" target="_blank">公众号『 IT追梦吧 』</a> | <a href="" target="_blank"> 抖音 何灿烊Young</a>
+- 🌱 热爱分享 <a href="#" target="_blank">公众号『 IT追梦吧 』</a> | <a href="#" target="_blank"> 抖音 何灿烊Young</a>
 - 😺 B站主页：<a href="https://space.bilibili.com/495642569" target="_blank">B站 何灿烊Young</a>
 - 🤔 有问题欢迎一起讨论交流 <a href="https://www.cnblogs.com/He-Xiang-best/" target="_blank">博客园@Hecanyang</a> | <a href="https://blog.csdn.net/HXBest" target="_blank">CSDN@何灿烊Young</a>
 - 💬 微信：HX172837855

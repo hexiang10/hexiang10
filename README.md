@@ -22,5 +22,5 @@
 
 | 微信                                                         | 公众号                                                       | B站号                                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![image](https://img-blog.csdnimg.cn/img_convert/cece57138556f8ebe17ea8521e3114e1.png) | ![image](https://img-blog.csdnimg.cn/img_convert/4488f9f9de1c18bb21c82f5657598d0d.png) | <img src="https://img-blog.csdnimg.cn/img_convert/b8ce7dbe8b091bf7b206ae9424e98bbc.png" alt="image" style="zoom: 50%;" /> |
+| ![image](https://img-blog.csdnimg.cn/img_convert/cece57138556f8ebe17ea8521e3114e1.png) | ![image](https://img-blog.csdnimg.cn/img_convert/4488f9f9de1c18bb21c82f5657598d0d.png) | <img src="https://img-blog.csdnimg.cn/img_convert/b8ce7dbe8b091bf7b206ae9424e98bbc.png" alt="image" style="zoom: 30%;" /> |
 

@@ -20,10 +20,7 @@
 
 ## 欢迎一起交流学习！
 
-|微信|公众号 |B站号|
-| ------------ | ------------ | ------------ |
-|![image](https://img2020.cnblogs.com/blog/2361932/202108/2361932-20210825112432019-1945720145.png)
-|![image](https://img2020.cnblogs.com/blog/2361932/202108/2361932-20210825112129425-1186101011.jpg)|
-![image](https://img2020.cnblogs.com/blog/2361932/202108/2361932-20210825112209167-70029303.jpg)|
-
+| 微信                                                         | 公众号                                                       | B站号                                                        |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![image](https://img-blog.csdnimg.cn/img_convert/cece57138556f8ebe17ea8521e3114e1.png) | ![image](https://img-blog.csdnimg.cn/img_convert/4488f9f9de1c18bb21c82f5657598d0d.png) | <img src="https://img-blog.csdnimg.cn/img_convert/b8ce7dbe8b091bf7b206ae9424e98bbc.png" alt="image" style="zoom: 50%;" /> |
 

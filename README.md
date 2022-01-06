@@ -8,7 +8,7 @@
 
 - 😺 B 站主页：<a href="https://space.bilibili.com/495642569" target="_blank">B 站【小何同学在努力】</a>
 
-- 🌊 我的微博：<a href="https://weibo.com/7189812208/profile?topnav=1&wvr=6&is_all=1" target="_blank">微博【小何同学在努力】</a>
+- 🌊 我的微博：<a href="https://weibo.com/7189812208/profile?topnav=1&wvr=6&is_all=1" target="_blank">微博【小何同学向前进】</a>
 
 - 🏡 我的相关：<a href="https://github.com/He-Xiang-best" target="_blank">【Github】</a>| <a href="https://gitee.com/hexiang_home" target="_blank">【Gitee】</a>|<a href="https://codechina.csdn.net/HXBest" target="_blank">【CodeChina】</a> 
 

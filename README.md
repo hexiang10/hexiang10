@@ -28,6 +28,9 @@
 ## 欢迎一起交流学习呀！
 
 
-| 微信                                                         | B站号                                                       | 公众号                                                        |
+| 微信                                                         | B站号                                                        | 公众号                                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![image](https://img-blog.csdnimg.cn/img_convert/cece57138556f8ebe17ea8521e3114e1.png) | <img src="https://img2020.cnblogs.com/blog/2361932/202110/2361932-20211004140227777-34860138.png" alt="image" style="zoom:125%;" /> | ![image](https://img-blog.csdnimg.cn/img_convert/4488f9f9de1c18bb21c82f5657598d0d.png) |
+| ![image](https://img-blog.csdnimg.cn/img_convert/cece57138556f8ebe17ea8521e3114e1.png) | ![image](https://img-blog.csdnimg.cn/img_convert/96321ca49ce798da3095c0cb4c2bcafa.png) | ![image](https://img-blog.csdnimg.cn/img_convert/4488f9f9de1c18bb21c82f5657598d0d.png) |
+
+
+

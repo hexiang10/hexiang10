@@ -14,7 +14,7 @@
 
 - 🌱 热爱分享 ：<a href="#" target="_blank">公众号【珠科计协】</a> | <a href="#" target="_blank"> 抖音【小何同学在努力】</a>
 
-- 🤔 交流学习： <a href="https://www.cnblogs.com/He-Xiang-best/" target="_blank">博客园【小何学长】</a> | <a href="https://blog.csdn.net/HXBest" target="_blank">CSDN【小何学长】</a> | <a href="https://www.zhihu.com/people/hyang-x" target="_blank">【知乎】</a>
+- 🤔 交流学习： <a href="https://www.cnblogs.com/He-Xiang-best/" target="_blank">博客园【小何学长】</a> | <a href="https://blog.csdn.net/HXBest" target="_blank">CSDN【小何学长】</a> | <a href="https://www.zhihu.com/people/hyang-x" target="_blank">知乎【小何同学】</a>
 
   
 

@@ -16,14 +16,11 @@
 
 - 🤔 交流学习： <a href="https://www.cnblogs.com/He-Xiang-best/" target="_blank">博客园【小何学长】</a> | <a href="https://blog.csdn.net/HXBest" target="_blank">CSDN【小何学长】</a> | <a href="https://www.zhihu.com/people/hyang-x" target="_blank">知乎【小何同学】</a>
 
-  
 
 ## 我的Github ✨
 
-| <img align="" height="137px" src="https://github-readme-stats.vercel.app/api?username=He-Xiang-best&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite&locale=cn" /> | <img align="" height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=He-Xiang-best&hide_title=true&hide_border=true&layout=compact&bg_color=0,73FA79,73FDFF,D783FF&theme=graywhite&locale=cn" /> |
+| <img align="" height="137px" src="https://github-readme-stats.vercel.app/api?username=he-xiang-best&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite&locale=ch" /> | <img align="" height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=he-xiang-best&hide_title=true&hide_border=true&layout=compact&bg_color=0,73FA79,73FDFF,D783FF&theme=graywhite&locale=cn" /> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-
-
 
 ## 欢迎一起交流学习呀！
 

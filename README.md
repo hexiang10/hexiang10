@@ -6,7 +6,7 @@
 
 - 🤔 交流学习：<a href="https://blog.csdn.net/HXBest" target="_blank">CSDN【小何学长】</a> 
 
-- 😺 B 站主页：<a href="https://space.bilibili.com/495642569" target="_blank">B 站【小何同学在努力】</a>
+- 😺 B 站主页：<a href="https://space.bilibili.com/495642569" target="_blank"> B 站【小何同学在努力】</a>
 
 - 🏡 我的相关：<a href="https://github.com/He-Xiang-best" target="_blank">【Github】</a>| <a href="https://gitee.com/hexiang_home" target="_blank">【Gitee】</a>|<a href="https://gitcode.net/HXBest" target="_blank">【GitCode】</a> 
 

@@ -1,15 +1,54 @@
-## Hi there 👋 This is HeXiang ✨ Nice to meet you！
+### Hi there 👋 This is Hexiang ！✨ 
 
-- 🌞 Love life! Love sharing! Love learning! A sunny UP master! Look forward to moving forward with you on the way to the future!
+[![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/hexiang6)
+[![Bilibili](https://img.shields.io/badge/-Bilibili-blue?style=flat&logo=Bilibili&logoColor=pink)](https://space.bilibili.com/495642569)
+[![CSDN](https://img.shields.io/badge/-CSDN-c14438?style=flat&logo=Coil&logoColor=white)](https://blog.csdn.net/HXBest)
 
-- 🐧  QQ ：**172837855** 🌱 Exchange learning：<a href="https://blog.csdn.net/HXBest" target="_blank">CSDN</a> 🌻 Bilibili homepage：<a href="https://space.bilibili.com/495642569" target="_blank"> bilibili</a>
+Welcome to my Github page! I am Hexiang and I am currently Learning software engineering and artificial intelligence!  
 
-## :computer: Programming languages and Project achievements :computer: 
-| <img align="" height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hexiang6&hide_title=true&hide_border=true&layout=compact&bg_color=0,73FA79,73FDFF,D783FF&theme=graywhite&locale=cn" /> | <img align="" height="137px" src="https://github-readme-stats.vercel.app/api?username=hexiang6&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite&locale=cn" /> |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+<img align="right" alt="img" src="https://img-blog.csdnimg.cn/5c63dc7bafd64824ac45bfe3d86d026e.png" width="50%" height="auto" />
 
-## ⚡Welcome to learn and exchange！
 
-|                           bilibili                           |                   WeChat official account                    |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img width="60%" src="https://img-blog.csdnimg.cn/img_convert/96321ca49ce798da3095c0cb4c2bcafa.png"> | <img width="50%" src="https://img-blog.csdnimg.cn/img_convert/4488f9f9de1c18bb21c82f5657598d0d.png"> |
+#### 🌱 Things I am currently working on 🌱 : 
+
+- Taking online courses about Cloud service technology and Machine Learning 
+- [My website](https://github.com/hexiang6) 🚀 *coming soon*
+
+
+#### ⚡ Things recent ones I'm interested in ⚡ : 
+
+- Chat GPT
+- Stable Diffusion
+- Image generation
+- Layout2image
+- pix2pix
+
+#### 🌻 I am studying 🌻
+
+- IELTS
+- French
+- German
+
+
+#### :computer: Programming languages and tools :computer: : 
+
+<p>
+<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api?username=hexiang6&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&locale=en" />
+<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hexiang6&hide_title=true&hide_border=true&layout=compact&local=en" />
+<code><img width="10%" src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg"></code>
+<code><img width="10%" src="https://www.vectorlogo.zone/logos/cmake/cmake-ar21.svg"></code>
+<code><img width="10%" src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg"></code>
+<br />
+<code><img width="10%" src="https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg"></code>
+<code><img width="10%" src="https://www.vectorlogo.zone/logos/redis/redis-ar21.svg"></code>
+<code><img width="10%" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"></code>
+<br />
+<code><img width="10%" src="https://www.vectorlogo.zone/logos/vuejs/vuejs-ar21.svg"></code>
+<code><img width="10%" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"></code>
+<code><img width="10%" src="https://www.vectorlogo.zone/logos/broccolijs/broccolijs-ar21.svg"></code>
+</p>
+
+<sub>Credits to: <br/>[Stable Diffusion](https://stablediffusionweb.com) for the wonderfull [picture](https://github.com/zhanglina94/zhanglina94/img/pic.jpg)</sub>
+
+If you want to know more, please refer to the my [website](https://zhanglina94.github.io).
+

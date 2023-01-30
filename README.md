@@ -3,7 +3,7 @@
 [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/hexiang6)
 [![Bilibili](https://img.shields.io/badge/-Bilibili-blue?style=flat&logo=Bilibili&logoColor=pink)](https://space.bilibili.com/495642569)
 [![CSDN](https://img.shields.io/badge/-CSDN-c14438?style=flat&logo=Coil&logoColor=white)](https://blog.csdn.net/HXBest)
-[![Tiktok](https://img.shields.io/badge/-Tiktok-000?style=flat&logo=Tiktok&logoColor=white)](https://img-blog.csdnimg.cn/171ec1f211204eac90ec6646a113cd85.jpeg)
+[![Tiktok](https://img.shields.io/badge/-Tiktok-000?style=flat&logo=Tiktok&logoColor=white)](https://img-blog.csdnimg.cn/171ec1f211204eac90ec6646a113cd85.jpeg?_blank)
 
 Welcome to my Github page! I am Hexiang 🙋‍♂️ Nice to meet you! 
 

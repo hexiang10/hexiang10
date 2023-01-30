@@ -29,8 +29,8 @@ Welcome to my Github page! I am Hexiang 🙋‍♂️ Nice to meet you!
 #### :computer: Programming languages and skills :computer: : 
 
 <p>
-<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api?username=hexiang10&hide_title=false&hide_border=true&show_icons=true&include_all_commits=true&locale=en" />
-<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hexiang10&hide_title=true&hide_border=true&layout=compact&local=en" />
+<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api?username=hexiang10&hide_title=false&hide_border=true&show_icons=true&include_all_commits=true&locale=cn" />
+<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hexiang10&hide_title=true&hide_border=true&layout=compact&local=cn" />
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg"></code>
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/cmake/cmake-ar21.svg"></code>
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg"></code>

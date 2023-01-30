@@ -1,9 +1,10 @@
 ### Hi there 👋 This is Hexiang ！✨ 
 
-[![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/hexiang6)
+[![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/hexiang10)
 [![Bilibili](https://img.shields.io/badge/-Bilibili-blue?style=flat&logo=Bilibili&logoColor=pink)](https://space.bilibili.com/495642569)
 [![CSDN](https://img.shields.io/badge/-CSDN-c14438?style=flat&logo=Coil&logoColor=white)](https://blog.csdn.net/HXBest)
 [![Tiktok](https://img.shields.io/badge/-Tiktok-000?style=flat&logo=Tiktok&logoColor=white)](https://img-blog.csdnimg.cn/171ec1f211204eac90ec6646a113cd85.jpeg)
+[![Twitter](https://img.shields.io/badge/-Twitter-white?style=flat&logo=Twitter&logoColor=blue)](https://twitter.com/Xiang_He_)
 
 Welcome to my Github page! I am Hexiang 🙋‍♂️ Nice to meet you! 
 
@@ -12,7 +13,7 @@ Welcome to my Github page! I am Hexiang 🙋‍♂️ Nice to meet you!
 #### 🌱 Things I am currently working on 🌱 : 
 
 - Taking online courses about Cloud service technology and Machine Learning 
-- [My website](https://github.com/hexiang6) 🚀 *coming soon*
+- [My website](https://github.com/hexiang10) 🚀 *coming soon*
 
 
 #### ⚡ Things recent ones I'm interested in ⚡ : 
@@ -26,8 +27,8 @@ Welcome to my Github page! I am Hexiang 🙋‍♂️ Nice to meet you!
 #### :computer: Programming languages and skills :computer: : 
 
 <p>
-<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api?username=hexiang6&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&locale=en" />
-<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hexiang6&hide_title=true&hide_border=true&layout=compact&local=en" />
+<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api?username=hexiang10&hide_title=false&hide_border=true&show_icons=true&include_all_commits=true&locale=en" />
+<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hexiang10&hide_title=true&hide_border=true&layout=compact&local=en" />
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg"></code>
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/cmake/cmake-ar21.svg"></code>
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg"></code>
@@ -63,5 +64,5 @@ Welcome to my Github page! I am Hexiang 🙋‍♂️ Nice to meet you!
 
 <sub>Self-assessment: <br/>I am a boy who loves life, sharing, and learning.I look forward to moving forward with you on the way to the future!</sub>
 
-If you want to know more, please refer to the my [website](https://zhanglina94.github.io).
+If you want to know more, please refer to the my [website](https://github.com/hexiang10).
 

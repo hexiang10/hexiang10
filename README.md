@@ -1,3 +1,5 @@
+<img align="right" alt="img" src="https://img-blog.csdnimg.cn/5c63dc7bafd64824ac45bfe3d86d026e.png" width="50%" height="auto" />
+
 ### Hi there 👋 This is Hexiang ！✨ 
 
 [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/hexiang10)
@@ -8,21 +10,20 @@
 
 Welcome to my Github page! I am Hexiang 🙋‍♂️ Nice to meet you! 
 
-<img align="right" alt="img" src="https://img-blog.csdnimg.cn/5c63dc7bafd64824ac45bfe3d86d026e.png" width="50%" height="auto" />
 
 #### 🌱 Things I am currently working on 🌱 : 
 
-- Taking online courses about Cloud service technology and Machine Learning 
+- Taking online courses about Software Engineering and Artificial Intelligence
 - [My website](https://github.com/hexiang10) 🚀 *coming soon*
 
 
 #### ⚡ Things recent ones I'm interested in ⚡ : 
 
 - Chat GPT
-- Stable Diffusion
-- Image generation
-- Layout2image
-- pix2pix
+- Deep learning
+- Machine Learning 
+- Cloud development
+- Cloud Service technology
 
 #### :computer: Programming languages and skills :computer: : 
 
@@ -62,7 +63,7 @@ Welcome to my Github page! I am Hexiang 🙋‍♂️ Nice to meet you!
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg"></code>
 </p>
 
-<sub>Self-assessment: <br/>I am a boy who loves life, sharing, and learning.I look forward to moving forward with you on the way to the future!</sub>
+<sub>Self-assessment: <br/>I am a person who loves life, sharing, and learning.I look forward to moving forward with you on the way to the future!</sub>
 
-If you want to know more, please refer to the my [website](https://github.com/hexiang10).
+If you want to know more, please chat to [![QQ](https://img.shields.io/badge/-172837855-white?style=flat&logo=tencentqq&logoColor=black)](https://github.com/hexiang10)
 

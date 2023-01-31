@@ -29,7 +29,7 @@ Welcome to my Github page! I am Hexiang 🙋‍♂️ Nice to meet you!
 #### :computer: Programming languages and skills :computer: : 
 
 <p>
-<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api?username=hexiang10&hide_title=false&hide_border=true&show_icons=true&include_all_commits=true&locale=cn" />
+<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api?username=hexiang10&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true" />
 <img width="50%" align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hexiang10&hide_title=true&hide_border=true&layout=compact&local=cn" />
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg"></code>
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/cmake/cmake-ar21.svg"></code>
@@ -48,7 +48,7 @@ Welcome to my Github page! I am Hexiang 🙋‍♂️ Nice to meet you!
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/nginx/nginx-ar21.svg"></code>
 <br />
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"></code>
-<code><img width="10%" src="https://raw.githubusercontent.com/gilbarbara/logos/1f372be75689d73cae89b6de808149b606b879e1/logos/maven.svg"></code>
+<code><img width="10%" src="https://gitcode.net/HXBest/project-storage/raw/images/svg/maven.svg"></code>
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/jenkins/jenkins-ar21.svg"></code>
 <br />
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/linuxfoundation/linuxfoundation-ar21.svg"></code>
@@ -63,6 +63,7 @@ Welcome to my Github page! I am Hexiang 🙋‍♂️ Nice to meet you!
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/eclipse/eclipse-ar21.svg"></code>
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg"></code>
 </p>
+
 
 <sub>Self-assessment: <br/>I am a person who loves life, sharing, and learning.I look forward to moving forward with you on the way to the future!</sub>
 

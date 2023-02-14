@@ -48,7 +48,7 @@ Welcome to my Github page! I am Hexiang 🙋‍♂️ Nice to meet you!
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/nginx/nginx-ar21.svg"></code>
 <br />
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"></code>
-<code><img width="10%" src="https://gitcode.net/HXBest/project-storage/raw/images/svg/maven.svg"></code>
+<code><img width="10%" src="https://gitcode.net/HXBest/storage/raw/images/svg/maven.svg"></code>
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/jenkins/jenkins-ar21.svg"></code>
 <br />
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/linuxfoundation/linuxfoundation-ar21.svg"></code>

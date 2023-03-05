@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>【简历】何翔</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/typo.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <!-- 引入样式文件 -->
+    <link rel="stylesheet" href="assets/element-ui/index.css" />
+    <link rel="stylesheet" href="assets/element-ui/lbt.css" />
+</head>
+
+<body>
+
+    <div id="app">
+
+
+
+        <header class="header"></header>
+
+        <article class="container">
+            <section class="side" id="side">
+
+                <!-- 个人肖像 -->
+                <section class="me">
+                    <img style="width: 50%; height: auto;" src="assets/images/avatar.jpg">
+                    <!-- <h1 class="name">何翔</h1>-->
+                    <a href="#">
+                        <h4 class="info-job" @click="detail('assets/images/avatar_formal.jpg','学籍照片')">坚持到底，胜者为王</h4>
+                    </a>
+
+                </section>
+
+                <!-- 基本信息 -->
+                <section class="profile info-unit">
+                    <h2>
+                        <i class="fa fa-user" aria-hidden="true"></i>基本信息
+                    </h2>
+                    <hr />
+                    <ul>
+                        <li>
+                            <label>个人信息</label>
+                            <span>何翔 / 男 / 22岁</span>
+                        </li>
+                        <li>
+                            <label>政治面貌</label>
+                            <a href="#">
+                                <span style="color:red; font-weight: bold;"
+                                    @click="detail('assets/images/others/dangyuan.jpg','中共党员')">中共党员</span>
+                            </a>
+
+                        </li>
+                        <li>
+                            <label>现居地址</label>
+                            <span>广东省珠海市</span>
+                        </li>
+                        <li>
+                            <label>户口地址</label>
+                            <span>广东省韶关市</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- 联系方式 -->
+                <section class="contact info-unit">
+                    <h2>
+                        <i class="fa fa-phone" aria-hidden="true"></i>联系方式
+                    </h2>
+                    <hr />
+                    <ul>
+                        <li>
+                            <label><i class="fa fa-phone-square" aria-hidden="true"></i>手机号码</label>
+                            <a href="#" @click="detail('assets/images/wechat.png','添加微信（记得备注）')">138-2631-6125</a>
+                        </li>
+                        <li>
+                            <label><i class="fa fa-envelope" aria-hidden="true"></i>邮箱地址</label>
+                            <a href="https://mail.qq.com/" target="_blank">172837855@qq.com</a>
+                        </li>
+                        <li>
+                            <label><i class="fa fa-github-alt" aria-hidden="true"></i>CSDN</label>
+                            <a href="https://blog.csdn.net/HXBest" target="_blank">blog.csdn.net/HXBest</a>
+                        </li>
+                        <li>
+                            <label><i class="fa fa-github" aria-hidden="true"></i>GitHub</label>
+                            <a href="https://github.com/hexiang10" target="_blank">github.com/hexiang10</a>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- 技能证书 -->
+                <section class="skill info-unit">
+                    <h2>
+                        <i class="fa fa-book" aria-hidden="true"></i>技能证书
+                    </h2>
+                    <hr />
+                    <el-carousel :interval="3000" type="card" height="200px">
+                        <el-carousel-item v-for="item in zhengshu">
+                            <img style="width: 100%; height: 100%;" :src="item.imgurl">
+                        </el-carousel-item>
+                    </el-carousel>
+                </section>
+
+                <!-- 专业技能 -->
+                <section class="skill info-unit">
+                    <h2>
+                        <i class="fa fa-tags" aria-hidden="true"></i>专业技能
+                    </h2>
+                    <hr />
+                    <p>
+                        <code><img width="30%" src="assets/images/skills/java-horizontal.svg"></code>
+                        <code><img width="30%" src="assets/images/skills/cmake-ar21.svg"></code>
+                        <code><img width="30%" src="assets/images/skills/python-horizontal.svg"></code>
+                        <br />
+                        <code><img width="30%" src="assets/images/skills/springio-ar21.svg"></code>
+                        <code><img width="30%" src="assets/images/skills/alibabacloud-ar21.svg"></code>
+                        <code><img width="30%" src="assets/images/skills/mysql-ar21.svg"></code>
+                        <br />
+                        <code><img width="30%" src="assets/images/skills/redis-ar21.svg"></code>
+                        <code><img width="30%" src="assets/images/skills/mongodb-ar21.svg"></code>
+                        <code><img width="30%" src="assets/images/skills/elastic-ar21.svg"></code>
+                        <br />
+                        <code><img width="30%" src="assets/images/skills/rabbitmq-ar21.svg"></code>
+                        <code><img width="30%" src="assets/images/skills/minioio-ar21.svg"></code>
+                        <code><img width="30%" src="assets/images/skills/nginx-ar21.svg"></code>
+                        <br />
+                        <code><img width="30%" src="assets/images/skills/maven.svg"></code>
+                        <code><img width="30%" src="assets/images/skills/git-scm-ar21.svg"></code>
+                        <code><img width="30%" src="assets/images/skills/jenkins-ar21.svg"></code>
+                        <br />
+                        <code><img width="30%" src="assets/images/skills/linux-ar21.svg"></code>
+                        <code><img width="30%" src="assets/images/skills/centos-ar21.svg"></code>
+                        <code><img width="30%" src="assets/images/skills/docker-ar21.svg"></code>
+                        <br />
+                        <code><img width="30%" src="assets/images/skills/vuejs-ar21.svg"></code>
+                        <code><img width="30%" src="assets/images/skills/js_webpack-ar21.svg"></code>
+                        <code><img width="30%" src="assets/images/skills/nodejs-ar21.svg"></code>
+                        <br />
+                        <code><img width="30%" src="assets/images/skills/w3_html5-ar21.svg"></code>
+                        <code><img width="30%" src="assets/images/skills/w3_css-ar21.svg"></code>
+                        <code><img width="30%" src="assets/images/skills/javascript-ar21.svg"></code>
+                        <br />
+                        <code><img width="30%" src="assets/images/skills/jetbrains-ar21.svg"></code>
+                        <code><img width="30%" src="assets/images/skills/eclipse-ar21.svg"></code>
+                        <code><img width="30%" src="assets/images/skills/visualstudio_code-ar21.svg"></code>
+                    </p>
+                </section>
+
+                <!-- 专业知识 -->
+                <section class="skill info-unit">
+                    <h2>
+                        <i class="fa fa-bookmark" aria-hidden="true"></i>专业知识
+                    </h2>
+                    <hr />
+                    <ul>
+                        <li>
+                            <label>数据结构</label>
+                            <progress value="90" max="100"></progress>
+                        </li>
+                        <li>
+                            <label>软件工程</label>
+                            <progress value="90" max="100"></progress>
+                        </li>
+                        <li>
+                            <label>软件建模</label>
+                            <progress value="85" max="100"></progress>
+                        </li>
+                        <li>
+                            <label>软件测试</label>
+                            <progress value="80" max="100"></progress>
+                        </li>
+                        <li>
+                            <label>操作系统</label>
+                            <progress value="75" max="100"></progress>
+                        </li>
+                        <li>
+                            <label>数据库</label>
+                            <progress value="70" max="100"></progress>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- 二维码 -->
+                <section class="qrcode info-unit">
+                    <h2><i class="fa fa-qrcode" aria-hidden="true"></i>二维码</h2>
+                    <hr />
+                    <img src="./assets/images/wechat.png" style="width: 100%; height: auto;" alt="">
+                </section>
+
+                <!-- 自我评价 -->
+                <section class="skill info-unit">
+                    <h2>
+                        <i class="fa fa-pencil" aria-hidden="true"></i>自我评价
+                    </h2>
+                    <hr />
+                    本人阳光开朗、勤奋刻苦，具有进取心、责任感、团队合作精神。
+                    三年学生干部的锻炼让我拥有了出色的沟通、协调能力，优秀的组织和管理能力以及细心热情的工作态度。
+                    我能够与团队成员建立良好的合作关系，有效地分配任务和协调工作，确保项目的顺利进行。
+                    同时，我能够与导师和同行学者保持紧密联系，积极参与学术讨论和交流，不断提升自己的学术水平。
+                    此外，我具有较强的编程能力和算法设计能力，熟练掌握了多种编程语言和工具，能够独立完成复杂的程序开发和系统设计任务。
+                    最后，我也对未来的职业发展有明确的规划和期望，希望能够成为一名优秀的计算机技术人才或研究人员，不断地去深耕和探索。
+                </section>
+
+            </section>
+
+            <!-- 简历主题区域 -->
+            <section class="main">
+
+                <!-- 教育经历 -->
+                <section class="edu info-unit">
+                    <h2>
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>教育经历
+                    </h2>
+                    <hr />
+                    <ul>
+                        <li>
+                            <h3>
+                                <span class="stress">吉林大学珠海学院 - 软件工程专业（本科）</span>
+                                <time>2019.9-2023.7</time>
+                            </h3>
+                            <p>🥇
+                                专业排名<mark style="font-weight: bold; ">1/380</mark>，综合排名前<mark
+                                    style="font-weight: bold; ">3</mark>，GPA<mark
+                                    style="font-weight: bold; ">3.78/4</mark>，成绩加权平均分<mark
+                                    style="font-weight: bold; ">91.73</mark>，
+                                大学期间获
+                                <a href="#" class="award"
+                                    @click="detail('assets/images/school/guojiajiangxuejin.jpg','国家奖学金','说明：国家奖学金已评比完毕，但受疫情影响证书暂未发放！')">
+                                    国家奖学金</a>，
+                                <a href="#" class="award"
+                                    @click="detail('assets/images/school/shijiatimin.jpg','十佳大学生提名奖','说明：校十佳大学生已评比完毕，但受疫情影响证书暂未发放！')">
+                                    十佳大学生提名奖</a>，
+                                <a href="#" class="award"
+                                    @click="details('一等奖学金',1,'说明：2021-2022学年一等奖学金已评比完毕，但奖状暂未发放！')">
+                                    一等奖学金<mark>3</mark>次</a>，
+                                <a href="#" class="award" @click="details('优秀学生',2,'说明：2021-2022学年优秀学生已评比完毕，但奖状暂未发放！')">
+                                    优秀学生<mark>3</mark>次</a>，
+                                <a href="#" class="award"
+                                    @click="details('学术和科技创新奖',3,'说明：2021-2022学年学术和科技创新奖已评比完毕，但奖状暂未发放！')">
+                                    学术和科技创新奖<mark>2</mark>次</a>，
+                                <a href="#" class="award"
+                                    @click="detail('assets/images/school/shehuishijianjiang.jpg','社会实践奖')">
+                                    社会实践奖<mark>1</mark>次</a>，
+                                <a href="#" class="award"
+                                    @click="detail('assets/images/school/youxiuxueshenganbu.jpg','优秀学生')">
+                                    优秀学生干部<mark>1</mark>次</a>。
+                                <span style="font-size: .5rem;border: 1px solid #4db6ac;padding: 1px 3px;
+                                        -webkit-border-radius: 5px;border-radius: 5px;margin-left: .5rem;">
+                                    <a href="#" @click="details('其他奖项',7)">
+                                        更多</a>
+                                </span>
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- 校园经历 -->
+                <section class="work info-unit">
+                    <h2>
+                        <i class="fa fa-university" aria-hidden="true"></i>校园经历
+                    </h2>
+                    <hr />
+                    <ul>
+                        <li>
+                            <h3>
+                                <span class="stress">计算机协会（主席）</span>
+                                <time>2021.6 至 2022.6</time>
+                            </h3>
+                            <ul class="info-content">
+                                <li>负责协会举办或参加各种比赛竞赛的赛事安排，管理协会各部门的工作任务，
+                                    积极开展协会内部以及对外的学术交流活动，还和其他技术类协会成员合作参与一些比赛赛事，以及项目开发等。
+                                    任职期间荣获
+                                    <a href="#" class="award" @click="details('优秀主席团成员',5)">“优秀主席团成员”</a>。
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>
+                                <span class="stress">新生代理班长、软件工程专业代言人</span>
+                                <time>2021.6 至 2021.10</time>
+                            </h3>
+                            <ul class="info-content">
+                                <li>负责给入学新生介绍专业性质，学习方向，以及给新生指导相关的专业学习，
+                                    课程预习等学习安排，帮助新生更好的融入到专业的学习当中。
+                                    任职期间荣获<a href="#" class="award"
+                                        @click="detail('assets/images/school/daiyanren.jpg','优秀专业代言人')">“优秀专业代言人”</a>、
+                                    <a href="#" class="award"
+                                        @click="detail('assets/images/school/daiban.jpg','优秀新生代理班长')">“优秀新生代理班长”</a>。
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>
+                                <span class="stress">计算机协会（秘书处部长）</span>
+                                <time>2020.6 至 2021.6</time>
+                            </h3>
+                            <ul class="info-content">
+                                <li>负责策划协会活动，编写活动策划书，组织调动各部门的人员，
+                                    对工作任务进行安排分配，制作无课表等工作。
+                                    任职期间荣获
+                                    <a href="#" class="award" @click="details('优秀干部',6)">“优秀干部”</a>、
+                                    <a href="#" class="award"
+                                        @click="detail('assets/images/school/shetuangugan.jpg','优秀社团骨干')">“优秀社团骨干”</a>。
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>
+                                <span class="stress">校学生会（学习部干事）</span>
+                                <time>2019.10 至 2020.6</time>
+                            </h3>
+                            <ul class="info-content">
+                                <li>负责开展和主持校级活动及比赛，曾组织过
+                                    <a style="color: black;"
+                                        @click="details('活动组织',4)">校级的辩论赛、校园十佳歌手大赛、金湾区双语比赛</a>等多项比赛。
+                                    任职期间荣获<a href="#" class="award"
+                                        @click="detail('assets/images/school/bumenzhix.jpg','部门之星')">“部门之星”</a>。
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+
+                <!-- 工作经历 -->
+                <section class="work info-unit">
+                    <h2>
+                        <i class="fa fa-tasks" aria-hidden="true"></i>工作经历
+                    </h2>
+                    <hr />
+                    <ul>
+                        <li>
+                            <h3>
+                                <span class="stress">远光软件股份有限公司－Java开发工程师（实习）</span>
+                                <time>2022.10 至 2023.3</time>
+                            </h3>
+                            <ul class="info-content">
+                                <li>主要参与了企业的九天技术社区项目、实践运用低代码开发平台，发版了快速上手低代码帮助文档，以及技术社区产品发版文档。
+                                    通过使用低代码技术开发设计并实现了服务器管理项目、客户机管理项目，以及通过用户体验平台的实践完善了低代码样例库。
+                                </li>
+
+                                <el-carousel :interval="3000" type="card" height="200px">
+                                    <el-carousel-item v-for="item in shixi">
+                                        <img style="width: 100%; height: 100%;" :src="item.imgurl">
+                                    </el-carousel-item>
+                                </el-carousel>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- 项目经验 -->
+                <section class="project info-unit">
+                    <h2>
+                        <i class="fa fa-code" aria-hidden="true"></i>项目经验
+                    </h2>
+                    <hr />
+                    <ul>
+                        <li>
+                            <h3>
+                                <span class="stress">⭐基于微服务的仿抖音App短视频社交平台</span>
+                                <span class="link">
+                                    <a href="https://docs.qq.com/pdf/DQUpVaXNNTUJlVnd1" target="_blank">前往查看</a>
+                                </span>
+                                <time>2022.12-2023.3</time>
+                            </h3>
+                            <ul class="info-content">
+                                <li>技术栈：SpringBoot+MybatisPlus+SpringCloud
+                                    Alibaba+Minio+RabbitMq+MongoDB+Redis+Mysql+Docker+Uniapp</li>
+                                <li>
+                                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                    本项目的目标是利用当今先进的互联网微服务信息技术和架构，构建一个为用户提供具有短视频社交相关服务的平台，在功能实现上类似于目前的抖音App应用软件。
+                                    在此基础上实现了该项目的功能模块有：用户业务模块、短视频业务模块、粉丝业务模块、评论业务模块、消息业务模块。
+                                    <br />
+                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                    本人负责项目的全部开发，维护，测试以及文档的编写。
+                                    <br />
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                    技术描述：
+                                    <br />
+                                    1、使用腾讯云短信服务实现手机号码注册登录，并用Redis存储验证码，实现60s限制拦截，多端ip控制功能。
+                                    <br />
+                                    2、使用Minio存储用户头像和背景图，UniCloud云存储保存上传的视频。
+                                    <br />
+                                    3、使用Redis计数器，统计和缓存用户的粉丝关注数量、评论数量，点赞数量。
+                                    <br />
+                                    4、使用MongoDB实现消息的保存，删除与查询，使用RabbitMQ对项目进行解耦，实现异步消息的功能等。
+                                    <br />
+                                    5、使用Nacos进行服务集群和动态配置管理，使用Duubo实现微服务模块间的通信。
+                                    <br />
+                                    6、使用Gateway网关实现统一鉴权验证处理，以及通过负载均衡的方式将请求分发到不同的微服务模块中。
+                                    <br />
+                                    <i class="fa fa-bell" aria-hidden="true"></i>
+                                    本项目为本人的毕设项目，也是第二届字节跳动青训营实践项目的拓展研发，待毕设答辩完后会对项目进行开源！
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>
+                                <span class="stress">⭐本地智能算法系统</span>
+                                <span class="link">
+                                    <a href="https://hexiang10.github.io/Intelligent-algorithm-system/#/"
+                                        target="_blank">前往查看</a>
+                                </span>
+                                <time>2022.4-2022.6</time>
+                            </h3>
+                            <ul class="info-content">
+                                <li>技术栈：SpringBoot+Mybatis-Plus+Mysql++Redis+Vue+JavaCV+OpenCV+Deeplearning4j+RuoYi-Vue-Plus
+                                </li>
+                                <li>
+                                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                    本项目的目标是实现一套能够对外提供智能算法接口，比如车牌识别、表情识别、密码学算法等服务的服务器(服务器集群)软件系统。
+                                    项目中的算法来自本地而非再来自互联网上其它的服务器或服务器应用软件系统(即第三方SDK等)。
+                                    在此基础上实现了该系统的主要功能有密码算法、对象识别、人脸识别、手写数字识别，图片处理，车牌识别，证件识别。
+                                    <br />
+                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                    本人负责项目的全部开发，维护，测试以及文档的编写。
+                                    <br />
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                    技术描述：
+                                    <br />
+                                    1、基础的权限功能，登录验证功能，文件存储等功能基于RuoYi-Vue-Plus脚手架搭建完成。
+                                    <br />
+                                    2、密码算法功能前端基于CryptoJS生成，后端实现了密码保存增删改查导出等功能。
+                                    <br />
+                                    3、人脸识别的前端基于Tracking.js实现人脸的捕获和截取，后端的人脸信息管理功能待补充。
+                                    <br />
+                                    4、图片处理功能主要就是使用OpenCV官方提供的一些Java版的算法模型进行图片处理。
+                                    <br />
+                                    5、手写数字识别功能让前端提交图片后，后端进行图片反色，缩放处理，特征提取，用deeplearing4j进行模型处理后返回识别结果即可。
+                                    <br />
+                                    6、对象识别功能只需要让SpringBoot应用识别图片中的物体，并在OpenCV集成的DNN模块加载和使用YOLO4模型，将推理结果标注在图片上即可。
+                                    <br />
+                                    7、车牌识别、证件识别基于EasyPR-Java开源代码进行整合实现。
+                                    <br />
+                                    <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+                                    本项目v2.0正在更新实现中，新的迭代版本基于微服务去完善和拓展项目的功能！敬请期待👏
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>
+                                <span class="stress">⭐基于Pytorch的人脸表情识别项目</span>
+                                <span class="link">
+                                    <a href="https://github.com/hexiang10/facial-expression-recognition"
+                                        target="_blank">前往查看</a>
+                                </span>
+                                <time>2021.11-2021.12</time>
+                            </h3>
+                            <ul class="info-content">
+                                <li>技术栈：Python+Pytorch</li>
+                                <li>
+                                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                    利用Pytorch设计完成的基于卷积神经网络实现的面部表情识别，研究分析了CNN、VGG和ResNet三种模型的识别算法以及算法的评估，
+                                    最终基于CNN模型算法，实现了人脸表情识别项目，讨论了VGG模型和ResNet模型的优化思路。
+                                    <br />
+                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                    本人负责项目的开发，文档的编写，以及答辩。
+                                    <br />
+                                    <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                    答辩视频地址：<a href="https://www.bilibili.com/video/BV1JR4y1W7Vw"
+                                        target="_blank">https://www.bilibili.com/video/BV1JR4y1W7Vw</a>
+                                    <br />
+                                    <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+                                    本项目v2.0计划于2023年6月开始出新的项目迭代，把之前的项目进行完善和拓展！敬请期待🙏
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>
+                                <span class="stress">⭐其他实践项目</span>
+                                <span class="link">
+                                    <a href="https://github.com/hexiang10?tab=repositories" target="_blank">前往查看</a>
+                                </span>
+                                <!-- <time>201X.X-201X.X</time> -->
+                            </h3>
+                            <ul class="info-content">
+
+                                <li>
+                                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                    <a href="https://github.com/hexiang10/recruitment-data-analysis" target="_blank"
+                                        style="color: black;">基于Python对招聘信息的数据分析</a>、
+                                    <a href="https://github.com/hexiang10/recruitment-data-analysis" target="_blank"
+                                        style="color: black;">仿掘金博客系统</a>、
+                                    <a href="https://github.com/hexiang10/performance-appraisal" target="_blank"
+                                        style="color: black;">企业绩效管理系统</a>、
+                                    <a href="https://github.com/hexiang10/stock-management-system" target="_blank"
+                                        style="color: black;">企业库存管理系统</a>等。
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </section>
+
+                <!-- 比赛经历 -->
+                <section class="work info-unit">
+                    <h2>
+                        <i class="fa fa-free-code-camp" aria-hidden="true"></i>比赛经历
+                    </h2>
+                    <hr />
+                    <p><!-- 可填充内容 --></p>
+                    <el-carousel :interval="3000" type="card" height="200px">
+                        <el-carousel-item v-for="item in competition">
+                            <img style="width: 100%; height: 100%;" :src="item.imgurl">
+                        </el-carousel-item>
+                    </el-carousel>
+                </section>
+
+                <!-- 实践经历 -->
+                <section class="project info-unit">
+                    <h2>
+                        <i class="fa fa-universal-access" aria-hidden="true"></i>实践经历
+                    </h2>
+                    <hr />
+                    <p><!-- 可填充内容 --></p>
+                    <el-carousel :interval="3000" type="card" height="200px">
+                        <el-carousel-item v-for="item in shijian">
+                            <img style="width: 100%; height: 100%;" :src="item.imgurl">
+                        </el-carousel-item>
+                    </el-carousel>
+                </section>
+
+            </section>
+        </article>
+
+
+        <footer class="footer">
+            <p>© 何翔.简历最后更新时间为
+            <time>2023年3月6日</time>.</p>
+        </footer>
+
+        <!-- 侧栏 -->
+        <aside>
+            <ul>
+                <li>
+                    <a href="#"
+                        @click="detail('assets/images/school/score.jpg','大学本科成绩单','说明：若图片展示看不清，可鼠标右键点击图片选择在新标签页打开或保存至本地，放大查看内容')">本科成绩单</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">下载简历</a>
+                </li>
+                <li>
+                    <a href="#"
+                        @click="detail('','Notification','English language will be online soon, please look forward to it!')">English</a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- 单个信息或图片弹出窗 -->
+        <el-dialog :title="showtitle" :visible.sync="centerDialogVisible" width="30%" center>
+            <img :src="showimage" style="width: 100%; height: auto;">
+            <span>{{showmessage}}</span>
+        </el-dialog>
+
+        <!-- 轮播图弹出展示窗 -->
+        <el-dialog :title="showtitle" :visible.sync="centerDialogVisibles" width="30%" center>
+            <el-carousel :interval="2000" indicator-position="outside">
+                <el-carousel-item v-for="item in award">
+                    <img style="width: 100%; height: 100%;" :src="item.imgurl">
+                </el-carousel-item>
+            </el-carousel>
+            <span>{{showmessage}}</span>
+        </el-dialog>
+
+    </div>
+
+
+
+    <!-- 引入相关JS 文件 -->
+    <script src="assets/vue/vue.js"></script>
+    <script src="assets/element-ui/index.js"></script>
+
+    <script type="text/javascript">
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                award: [],
+                centerDialogVisible: false,
+                centerDialogVisibles: false,
+                showimage: '',
+                showmessage: '',
+                showtitle: '',
+                shijian: [
+                    { imgurl: './assets/images/shijian/shijian-01.jpg' },
+                    { imgurl: './assets/images/shijian/shijian-02.jpg' },
+                    { imgurl: './assets/images/shijian/shijian-03.jpg' },
+                    { imgurl: './assets/images/shijian/shijian-04.jpg' },
+                    { imgurl: './assets/images/shijian/shijian-05.jpg' },
+                    { imgurl: './assets/images/shijian/shijian-06.jpg' },
+                ],
+                shixi: [
+                    { imgurl: './assets/images/shixi/didaima.png' },
+                    { imgurl: './assets/images/shixi/jishushequweb.png' },
+                    { imgurl: './assets/images/shixi/jishushequdoor.png' },
+                    { imgurl: './assets/images/shixi/tiyanpingtai.png' },
+                    { imgurl: './assets/images/shixi/fastdoc.png' },
+                    { imgurl: './assets/images/shixi/kehuji.png' },
+                ],
+                yidengjiang: [
+                    { imgurl: './assets/images/school/yidengjiang-01.jpg' },
+                    { imgurl: './assets/images/school/yidengjiang-02.jpg' },
+                ],
+                youxiuxueshen: [
+                    { imgurl: './assets/images/school/youxiuxueshen-01.jpg' },
+                    { imgurl: './assets/images/school/youxiuxueshen-02.jpg' },
+                    { imgurl: './assets/images/school/youxiuxueshen-03.jpg' },
+                ],
+                xueshukeji: [
+                    { imgurl: './assets/images/school/xueshukeji-01.jpg' },
+                    { imgurl: './assets/images/school/xueshukeji-02.jpg' },
+                ],
+                youxiuzhuxi: [
+                    { imgurl: './assets/images/school/youxiuzhuxi-01.jpg' },
+                    { imgurl: './assets/images/school/youxiuzhuxi-02.jpg' },
+                ],
+                youxiuganbu: [
+                    { imgurl: './assets/images/school/youxiuganbu-01.jpg' },
+                    { imgurl: './assets/images/school/youxiuganbu-02.jpg' },
+                ],
+                activity: [
+                    { imgurl: './assets/images/school/activity-01.jpg' },
+                    { imgurl: './assets/images/school/activity-02.jpg' },
+                    { imgurl: './assets/images/school/activity-03.jpg' },
+                ],
+                competition: [
+                    { imgurl: './assets/images/competition/competition-01.jpg' },
+                    { imgurl: './assets/images/competition/competition-02.jpg' },
+                    { imgurl: './assets/images/competition/competition-03.jpg' },
+                    { imgurl: './assets/images/competition/competition-04.jpg' },
+                    { imgurl: './assets/images/competition/competition-05.jpg' },
+                    { imgurl: './assets/images/competition/competition-06.jpg' },
+                    { imgurl: './assets/images/competition/competition-07.jpg' },
+                    { imgurl: './assets/images/competition/competition-08.jpg' },
+                ],
+                zhengshu: [
+                    { imgurl: './assets/images/zhengshu/zhengshu-01.jpg' },
+                    { imgurl: './assets/images/zhengshu/zhengshu-02.jpg' },
+                    { imgurl: './assets/images/zhengshu/zhengshu-03.jpg' },
+                    { imgurl: './assets/images/zhengshu/zhengshu-04.jpg' },
+                    { imgurl: './assets/images/zhengshu/zhengshu-05.jpg' },
+                ],
+                others: [
+                    { imgurl: './assets/images/others/lizhichengzhang.jpg' },
+                    { imgurl: './assets/images/others/junxunyouxiuxueyuan.jpg' },
+                    { imgurl: './assets/images/others/shigangjiaoxue.jpg' },
+                    { imgurl: './assets/images/others/xinlianxin.jpg' },
+                    { imgurl: './assets/images/others/guanggao.jpg' },
+                    { imgurl: './assets/images/others/youxiutuanyuan.jpg' },
+                ],
+            },
+            methods: {
+                detail(url, title, msg) {
+                    this.showimage = url,
+                        this.showtitle = title,
+                        this.showmessage = msg,
+                        this.centerDialogVisible = true
+                },
+                details(title, type, msg) {
+                    this.showtitle = title;
+                    if (type == 1) {
+                        this.award = this.yidengjiang;
+                    } else if (type == 2) {
+                        this.award = this.youxiuxueshen;
+                    } else if (type == 3) {
+                        this.award = this.xueshukeji;
+                    } else if (type == 4) {
+                        this.award = this.activity;
+                    } else if (type == 5) {
+                        this.award = this.youxiuzhuxi;
+                    } else if (type == 6) {
+                        this.award = this.youxiuganbu;
+                    } else if (type == 7) {
+                        this.award = this.others;
+                    }
+                    this.showmessage = msg,
+                        this.centerDialogVisibles = true
+                }
+            }
+        })
+
+    </script>
+</body>
+
+
+
+</html>

@@ -15,7 +15,7 @@ Welcome to my Github page! I am Hexiang 🙋‍♂️ Nice to meet you!
 #### 🌱 Things I am currently working on 🌱 : 
 
 - Taking online courses about Software Engineering and Artificial Intelligence
-- [My website](https://github.com/hexiang10) 🚀 *coming soon*
+- [My website](https://hexiang10.github.io/hexiang10/) 🚀 *coming soon*
 
 
 #### ⚡ Things recent ones I'm interested in ⚡ : 

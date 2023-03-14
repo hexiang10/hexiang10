@@ -73,6 +73,10 @@
                             <label>户口地址</label>
                             <span>广东省韶关市</span>
                         </li>
+                        <li>
+                            <label>籍贯地址</label>
+                            <span>广东省英德市</span>
+                        </li>
                     </ul>
                 </section>
 
@@ -277,10 +281,11 @@
                                 <time>2021.6 至 2022.6</time>
                             </h3>
                             <ul class="info-content">
-                                <li>负责协会举办或参加各种比赛竞赛的赛事安排，管理协会各部门的工作任务，
-                                    积极开展协会内部以及对外的学术交流活动，还和其他技术类协会成员合作参与一些比赛赛事，以及项目开发等。
-                                    任职期间荣获
-                                    <a class="award" @click="details('优秀主席团成员',5)">“优秀主席团成员”</a>。
+                                <li>
+                                    任职期间负责举办了蓝桥杯比赛、金山办公KOS应用大赛等多项比赛赛事，负责管理协会各部门的工作任务，
+                                    积极开展协会内部以及对外的学术交流活动，成功举办了第一季“计协论坛”，
+                                    还和其他技术类协会成员合作参与人工智能职业技能大赛，以及计算机设计大赛等。
+                                    任职期间荣获<a class="award" @click="details('优秀主席团成员',5)">“优秀主席团成员”</a>。
                                 </li>
                             </ul>
                         </li>
@@ -290,8 +295,13 @@
                                 <time>2021.6 至 2021.10</time>
                             </h3>
                             <ul class="info-content">
-                                <li>负责给入学新生介绍专业性质，学习方向，以及给新生指导相关的专业学习，
-                                    课程预习等学习安排，帮助新生更好的融入到专业的学习当中。
+                                <li>
+                                    担任专业代言人期间负责为学校录制了招生宣传视频，并且为新生录制了专业的指导视频，
+                                    以便更好地给入学新生介绍专业的性质和方向，帮助他们更好的融入到大学专业的学习当中。
+                                    担任新生代理班长期间，帮助新生熟悉校园环境和学习生活，介绍校园设施和学术资源，解答新生问题，
+                                    同时积极参与班级议事和决策，发表自己的意见和建议，为班级发展出谋划策，
+                                    并充分发挥了自己的组织能力和领导才能，带领班级成员共同成长和进步。
+
                                     任职期间荣获<a class="award"
                                         @click="detail('assets/images/school/daiyanren.jpg','优秀专业代言人')">“优秀专业代言人”</a>、
                                     <a class="award"
@@ -305,8 +315,8 @@
                                 <time>2020.6 至 2021.6</time>
                             </h3>
                             <ul class="info-content">
-                                <li>负责策划协会活动，编写活动策划书，组织调动各部门的人员，
-                                    对工作任务进行安排分配，制作无课表等工作。
+                                <li>任职期间负责组织和策划了四方交流会、软件设计大赛等多个比赛和活动，
+                                    并编写了活动策划书，在协会内主持开展了office技能培训、无课表制作、电脑系统优化、编程技术指导等多项培训工作。
                                     任职期间荣获
                                     <a class="award" @click="details('优秀干部',6)">“优秀干部”</a>、
                                     <a class="award"
@@ -369,7 +379,7 @@
                     <ul>
                         <li>
                             <h3>
-                                <span class="stress">⭐基于微服务的仿抖音App短视频社交平台</span>
+                                <span class="stress">⭐基于微服务的短视频社交平台应用</span>
                                 <span class="link">
                                     <a href="https://docs.qq.com/pdf/DQUpVaXNNTUJlVnd1" target="_blank">前往查看</a>
                                 </span>
@@ -540,7 +550,7 @@
 
         <footer class="footer">
             <p>© 何翔.简历最后更新时间为
-                <time>2023年3月6日</time>.
+                <time>2023年3月14日</time>.
             </p>
         </footer>
 
@@ -552,12 +562,17 @@
                         @click="detail('assets/images/school/score.jpg','大学本科成绩单','说明：若图片展示看不清，可鼠标右键点击图片选择在新标签页打开或保存至本地，放大查看内容')">本科成绩单</a>
                 </li>
                 <li>
-                    <a href="https://gitcode.net/HXBest/resume/-/raw/master/postgraduate_resume.pdf?inline=false" target="_blank">下载简历</a>
+                    <a href="https://gitcode.net/HXBest/storage/-/raw/resume/postgraduate_resume.pdf"
+                        target="_blank">下载简历</a>
+                </li>
+                <li>
+                    <a href="https://github.com/hexiang10/hexiang10" target="_blank">源码地址</a>
                 </li>
                 <li>
                     <a
                         @click="detail('','Notification','English language will be online soon, please look forward to it!')">English</a>
                 </li>
+
             </ul>
         </aside>
 
@@ -569,7 +584,7 @@
 
         <!-- 轮播图弹出展示窗 -->
         <el-dialog :title="showtitle" :visible.sync="centerDialogVisibles" width="50%" center>
-            <el-carousel :interval="2000" indicator-position="outside" height="500px">
+            <el-carousel :interval="2000" indicator-position="outside">
                 <el-carousel-item v-for="item in award">
                     <img style="width: 100%; height: 100%;" :src="item.imgurl">
                 </el-carousel-item>

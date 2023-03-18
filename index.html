@@ -565,14 +565,17 @@
                     <a href="https://gitcode.net/HXBest/storage/-/raw/resume/postgraduate_resume.pdf"
                         target="_blank">下载简历</a>
                 </li>
+
                 <li>
-                    <a href="https://github.com/hexiang10/hexiang10" target="_blank">源码地址</a>
+                    <a href="https://mp.weixin.qq.com/s/sI_TgcWzGKVgVTcda0KhMQ" target="_blank">简历指南</a>
                 </li>
                 <li>
                     <a
                         @click="detail('','Notification','English language will be online soon, please look forward to it!')">English</a>
                 </li>
-
+                <li>
+                    <a href="https://github.com/hexiang10/hexiang10" target="_blank">源码地址</a>
+                </li>
             </ul>
         </aside>
 
@@ -584,7 +587,7 @@
 
         <!-- 轮播图弹出展示窗 -->
         <el-dialog :title="showtitle" :visible.sync="centerDialogVisibles" width="50%" center>
-            <el-carousel :interval="2000" indicator-position="outside">
+            <el-carousel :interval="2000" indicator-position="outside" height="500px">
                 <el-carousel-item v-for="item in award">
                     <img style="width: 100%; height: 100%;" :src="item.imgurl">
                 </el-carousel-item>

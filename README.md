@@ -7,7 +7,6 @@
 [![Bilibili](https://img.shields.io/badge/-Bilibili-blue?style=flat&logo=Bilibili&logoColor=pink)](https://space.bilibili.com/495642569)
 [![CSDN](https://img.shields.io/badge/-CSDN-c14438?style=flat&logo=Coil&logoColor=white)](https://blog.csdn.net/HXBest)
 [![Tiktok](https://img.shields.io/badge/-Tiktok-000?style=flat&logo=Tiktok&logoColor=white)](https://img-blog.csdnimg.cn/171ec1f211204eac90ec6646a113cd85.jpeg)
-[![Twitter](https://img.shields.io/badge/-Twitter-white?style=flat&logo=Twitter&logoColor=blue)](https://twitter.com/Xiang_He_)
 
 Welcome to my Github page! I am Hexiang 🙋‍♂️ Nice to meet you! 
 
@@ -67,5 +66,5 @@ Welcome to my Github page! I am Hexiang 🙋‍♂️ Nice to meet you!
 
 <sub>Self-assessment: <br/>I am a person who loves life, sharing, and learning.I look forward to moving forward with you on the way to the future!</sub>
 
-If you want to know more, please chat to [![QQ](https://img.shields.io/badge/-172837855-white?style=flat&logo=tencentqq&logoColor=black)](https://github.com/hexiang10)
+If you want to know more, please chat to [![QQ](https://img.shields.io/badge/-172837855-white?style=flat&logo=tencentqq&logoColor=black)](https://img.picgo.net/2024/07/28/qq-codea5d818b5767855a7.jpg)
 

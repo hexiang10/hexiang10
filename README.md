@@ -1,6 +1,6 @@
 
 
-### Hi there 👋 This is Hexiang ！✨ 
+### Hi there 👋 This is Hexiang ！✨
 <img align="right" alt="img" src="https://img-blog.csdnimg.cn/5c63dc7bafd64824ac45bfe3d86d026e.png" width="50%" height="auto" />
 
 [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/hexiang10)
@@ -8,24 +8,24 @@
 [![CSDN](https://img.shields.io/badge/-CSDN-c14438?style=flat&logo=Coil&logoColor=white)](https://blog.csdn.net/HXBest)
 [![Tiktok](https://img.shields.io/badge/-Tiktok-000?style=flat&logo=Tiktok&logoColor=white)](https://img-blog.csdnimg.cn/171ec1f211204eac90ec6646a113cd85.jpeg)
 
-Welcome to my Github page! I am Hexiang 🙋‍♂️ Nice to meet you! 
+Welcome to my Github page! I am Hexiang 🙋‍♂️ Nice to meet you!
 
 
-#### 🌱 Things I am currently working on 🌱 : 
+#### 🌱 Things I am currently working on 🌱 :
 
 - Taking online courses about Software Engineering and Artificial Intelligence
 - [My website](https://hexiang10.github.io/hexiang10/) 🚀 *coming soon*
 
 
-#### ⚡ Things recent ones I'm interested in ⚡ : 
+#### ⚡ Things recent ones I'm interested in ⚡ :
 
-- Chat GPT
+- ChatGPT
 - Deep learning
-- Machine Learning 
+- Machine Learning
 - Cloud development
 - Cloud Service technology
 
-#### :computer: Programming languages and skills :computer: : 
+#### :computer: Programming languages and skills :computer: :
 
 <p>
 <img width="50%" align="right" src="https://github-readme-stats.vercel.app/api?username=hexiang10&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true" />

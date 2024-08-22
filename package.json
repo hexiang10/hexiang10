@@ -1,0 +1,44 @@
+{
+  "name": "my-vue3-template",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode development",
+    "build": "vite build --mode production",
+    "preview": "vite build && serve -s dist",
+    "prettier": "prettier --write ."
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@kangc/v-md-editor": "^2.3.18",
+    "@qiun/vue-ucharts": "^2.5.0-20230101",
+    "axios": "^1.6.8",
+    "echarts": "^5.5.1",
+    "element-plus": "^2.6.1",
+    "normalize.css": "^8.0.1",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "vue": "^3.4.21",
+    "vue-echarts": "^7.0.2",
+    "vue-router": "^4.3.0",
+    "vue3-scroll-seamless": "^1.0.6"
+  },
+  "devDependencies": {
+    "@iconify-json/ep": "^1.1.15",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue-macros/reactivity-transform": "^0.4.4",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
+    "sass": "^1.72.0",
+    "tailwindcss": "^3.4.3",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-element-plus": "^0.8.0",
+    "unplugin-icons": "^0.18.5",
+    "unplugin-vue-components": "^0.26.0",
+    "vite": "^5.1.6",
+    "vite-plugin-pages": "^0.32.1",
+    "vite-plugin-vue-layouts": "^0.11.0"
+  }
+}

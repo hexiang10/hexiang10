@@ -1,0 +1,28 @@
+/* 官网： https://www.tailwindcss.cn/docs/guides/vite#vue */
+/* 备忘清单：https://wangchujiang.com/reference/docs/tailwindcss.html */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.my-center-grid {
+  display: grid;
+  place-items: center; /* 水平垂直居中的快捷方式 */
+}
+.my-center-flex {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+}
+.my-fix-image {
+  width: 100%; /* 或者设置为具体的宽度 */
+  height: 100%; /* 或者设置为具体的高度 */
+  object-fit: fill;
+}
+/* 文字超过宽度时隐藏且添加省略号 */
+.my-ellipsis {
+  /* overflow: hidden; */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+

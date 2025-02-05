@@ -33,7 +33,7 @@ const contactWay = reactive({
       name: '哔哩哔哩',
       style: 'icon-bilibilizhanghao',
       url: 'https://space.bilibili.com/495642569',
-      value: 'bilibili.com/满慕星何',
+      value: 'bilibili.com/小何导儿',
     },
     {
       name: '我的博客',

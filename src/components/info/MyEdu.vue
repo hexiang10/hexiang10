@@ -39,7 +39,7 @@
     <el-tab-pane label="Role">Role</el-tab-pane>
     <el-tab-pane label="Task">Task</el-tab-pane> -->
     <div class="text-center">
-      <h3 class="mb-2">南京信息工程大学硕士学位研究生笔试成绩</h3>
+      <h3 class="mb-2">南京信息工程大学硕士研究生笔试成绩</h3>
       <div style="font-size: 13px;">085404（专业学位）计算机科学与技术</div>
     </div>
     <div class="ml-10 mt-2 text-center">
